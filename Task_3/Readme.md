@@ -1,34 +1,49 @@
-# CodeAlpha Data Analytics Internship - Task 2
-# Data Visualization on Titanic Dataset
+# CodeAlpha Data Analytics Internship - Task 3
+# Sentiment Analysis on Customer Reviews
 
-This folder contains the second task for the CodeAlpha Data Analytics Internship. The goal of this project is to create impactful data visualizations using the classic Titanic dataset to reveal insights clearly and support data-driven decision-making.
+This folder contains the third task for the CodeAlpha Data Analytics Internship. The goal of this project is to perform Sentiment Analysis on a dataset of customer reviews using Natural Language Processing (NLP) techniques to classify customer feedback as Positive, Negative, or Neutral.
 
 ## 📌 Project Overview
-This project transforms raw data into visual formats like charts and graphs. By visualizing demographics, ticket fares, and survival rates, we craft compelling data stories that enhance our understanding of the passenger manifest.
+This project analyzes text data to understand public opinion and customer satisfaction. It involves cleaning raw review text, calculating sentiment polarity, and comparing different NLP lexicons (TextBlob vs. VADER) to extract meaningful emotional trends from the data.
 
-## 📊 Key Visualizations & Insights
-* Survival Count: A bar chart illustrating the overall survival rate, showing the stark contrast between survivors and those who perished.
-* Gender vs Survival: A grouped bar chart highlighting the "Women and children first" protocol, clearly showing higher survival rates among female passengers.
-* Age Distribution: A histogram with a KDE overlay that compares the age distribution of survivors versus non-survivors.
-* Fare Distribution by Class: A boxplot revealing the socio-economic disparities, showing how ticket fares varied across different passenger classes.
-* Feature Correlation: A visual correlation heatmap (correlation_heatmap_2.png) demonstrating the underlying statistical dependencies between numerical columns.
+## 📊 Key Insights & Features
+* Data Cleaning: Processed raw text by converting it to lowercase, removing special characters/numbers, and filtering out standard English stopwords using NLTK.
+* Sentiment Classification (TextBlob): Calculated polarity scores to easily classify reviews into Positive, Negative, and Neutral categories.
+* VADER Lexicon Analysis: Applied the NLTK SentimentIntensityAnalyzer (VADER) for a more robust, context-aware emotional detection.
+* Model Comparison: Cross-analyzed and visualized the sentiment distributions between TextBlob and VADER.
+* Rating Correlation: Correlated user-given star ratings (1-5) with the NLP-generated sentiment to validate the accuracy of the models.
+
+## 📈 Visual Analysis
+All generated visualizations are stored in the `charts` directory. Below are some of the key insights:
+
+### Sentiment Distribution
+![Sentiment Pie Chart](charts/sentiment_pie.png)
+![Sentiment Bar Chart](charts/sentiment_bar.png)
+
+### NLP Models Comparison
+![Model Comparison](charts/comparison.png)
+
+### Polarity & Ratings Correlation
+![Rating Heatmap](charts/rating_heatmap.png)
+![Polarity Distribution](charts/polarity_dist.png)
 
 ## 🛠️ Tech Stack & Libraries Used
 * Language: Python
 * Environment: Jupyter Notebook
-* Libraries: pandas, numpy, matplotlib, seaborn
+* NLP Libraries: nltk, textblob, wordcloud
+* Data & Viz Libraries: pandas, numpy, matplotlib, seaborn
 
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
    git clone https://github.com/AnujKumarTiwari/CodeAlpha_ProjectName.git
-   cd CodeAlpha_ProjectName/Task_2
+   cd CodeAlpha_ProjectName/Task_3
 
 2. Install required dependencies:
-   pip install numpy pandas matplotlib seaborn notebook
+   pip install pandas numpy matplotlib seaborn nltk textblob wordcloud notebook
 
 3. Launch the Jupyter Notebook:
-   jupyter notebook titanic_eda_2.ipynb
+   jupyter notebook
 
 ---
 💡 Developed by Anuj Kumar Tiwari as part of the CodeAlpha Data Analytics Internship.
