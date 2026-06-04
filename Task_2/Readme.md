@@ -16,20 +16,20 @@ This project transforms raw data into visual formats like charts and graphs. By 
 All generated visualizations are stored in the `charts` directory. Below is the comprehensive dashboard and individual insights:
 
 ### Titanic Data Analysis Dashboard
-![Titanic Dashboard](Charts/titanic_dashboard_2.png)
+![Titanic Dashboard](Charts/titanic_dashboard.png)
 
 ### Individual Insights
 **Survival Rate Overview:**
-![Survival Count](Charts/survival_count_2.png)
+![Survival Count](Charts/survival_count.png)
 
 **Survival by Gender:**
-![Gender vs Survival](Charts/gender_survival_2.png)
+![Gender vs Survival](Charts/gender_survival.png)
 
 **Age Distribution of Passengers:**
-![Age Distribution](Charts/age_distribution_2.png)
+![Age Distribution](Charts/age_distribution.png)
 
 **Socio-Economic Spread (Fare by Class):**
-![Fare Boxplot](Charts/fare_boxplot_2.png)
+![Fare Boxplot](Charts/fare_boxplot.png)
 
 ## 🛠️ Tech Stack & Libraries Used
 * **Language:** Python
