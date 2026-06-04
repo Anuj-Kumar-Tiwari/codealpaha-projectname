@@ -17,15 +17,15 @@ This project analyzes text data to understand public opinion and customer satisf
 All generated visualizations are stored in the `charts` directory. Below are some of the key insights:
 
 ### Sentiment Distribution
-![Sentiment Pie Chart](charts/sentiment_pie.png)
-![Sentiment Bar Chart](charts/sentiment_bar.png)
+![Sentiment Pie Chart](Charts/sentiment_pie.png)
+![Sentiment Bar Chart](Charts/sentiment_bar.png)
 
 ### NLP Models Comparison
-![Model Comparison](charts/comparison.png)
+![Model Comparison](Charts/comparison.png)
 
 ### Polarity & Ratings Correlation
-![Rating Heatmap](charts/rating_heatmap.png)
-![Polarity Distribution](charts/polarity_dist.png)
+![Rating Heatmap](Charts/rating_heatmap.png)
+![Polarity Distribution](Charts/polarity_dist.png)
 
 ## 🛠️ Tech Stack & Libraries Used
 * Language: Python
